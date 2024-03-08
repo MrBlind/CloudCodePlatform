@@ -1,0 +1,12 @@
+apiVersion: ccp.blind.ccp.operator/v1
+kind: WorkSpace
+metadata:
+  labels:
+    app.kubernetes.io/name: workspace
+    app.kubernetes.io/instance: workspace-sample
+    app.kubernetes.io/part-of: cloud-ide
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: cloud-ide
+  name: workspace-sample
+spec:
+  # TODO(user): Add fields here
